@@ -1,0 +1,223 @@
+/**
+* Theme Name: Goya Child Theme
+* Description: This is a child theme of Goya, automatically generated.
+* Author: <a href="https://themeforest.net/user/everthemess">Everthemes</a>
+* Template: goya
+* Version: 1.0.6.7
+*/
+
+h1{
+    font-size: 3.8rem;
+}
+
+.header_on_scroll:not(.megamenu-active) .header .logolink img {
+    max-height: 50px !important;
+}
+
+.page-wrapper-inner{
+    padding-bottom: 60px;
+}
+
+.gravity-header-container{
+    max-width: 1814px;
+    margin: 0 auto;
+}
+.gravity-breadcrum{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.gravity-subtitle{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.home-title h2{
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    margin-bottom: 10px
+}
+
+.home-title h3{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.17em;
+}
+.home-block.et-banner.content-full .et-banner-text{
+    border: 2px solid white;
+    text-align: center;
+    width: 216px;
+    height: 47px;
+    padding: 0;
+}
+.home-block .et-banner-text .et-banner-title.small{
+    font-size: 18px;
+    padding: 0;
+}
+.home-block .et-banner-text-inner {
+    padding: 10px;
+}
+
+.home-block:hover .et-banner-text{
+    background: white;
+}
+
+.home-block:hover .et-banner-text h2{
+    color: black;
+}
+
+.home-block:hover img{
+    opacity: 70%;
+}
+
+.footer-widgets .widgettitle {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-widgets ul.social-icons > li:first-child{
+    margin-left: -10px;
+}
+
+.footer4 a{
+    width: 176px !important;
+    height: 47px;
+    padding: 10px !important;
+    font-weight: bold;
+}
+
+#menu-footer a, .copyright {
+    color: black;
+    font-size: 12px;
+    padding: 0;
+}
+
+#menu-footer {
+    margin-top: -6px;
+}
+
+.gravity-icons .et-feature-icon{
+    width: 37% !important;
+    margin: 0 auto;
+}
+.gravity-table{
+    max-width: 450px;
+    margin: 0 auto;
+}
+.gravity-table table{
+    border: white;
+}
+.gravity-table tr > td{
+    padding: 0;
+}
+.gravity-table tr, .gravity-table td{
+    border-bottom: 1px solid #ddd;
+}
+.gravity-table tbody tr:last-child, .gravity-table tbody tr:last-child td{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.gravity-table th:first-child img {
+    width: 30%;
+}
+.gravity-table th:last-child img {
+    width: 30%;
+    margin-bottom: 10px;
+    margin-top: -7px;
+}
+.gravity-table thead p {
+    margin-bottom: -7px;
+}
+.gravity-table thead h3 {
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.gravity-table td strong {
+    font-weight: 800;
+}
+
+.counter-container .odometer-inside{
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.counter-container .odometer-inside:before{
+    content: "Total :";
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: -105px;
+    padding-right: 10px;
+}
+
+.counter-container .odometer-inside:after{
+    content: "KM";
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+.counter-container .odometer-inside .odometer-digit:last-child {
+    padding-right: 10px;
+}
+
+.gravity-button button.vc_btn3.vc_btn3-color-white.vc_btn3-style-modern,
+.gravity-button a.vc_btn3.vc_btn3-color-white.vc_btn3-style-modern{
+    border: 2px solid black;
+    background: white;
+    color: black;
+    width: 196px;
+    height: 47px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.gravity-button button.vc_btn3.vc_btn3-color-white.vc_btn3-style-modern:hover,
+.gravity-button.active button.vc_btn3.vc_btn3-color-white.vc_btn3-style-modern,
+.gravity-button.active a.vc_btn3.vc_btn3-color-white.vc_btn3-style-modern,
+.gravity-button a.vc_btn3.vc_btn3-color-white.vc_btn3-style-modern:hover{
+    background: black;
+    color: white;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    .gravity-header-container{
+        max-width: calc(100% + 60px);
+        width: calc(100% + 60px);
+        margin-left: -30px;
+    }
+
+    .counter-container .odometer-inside:before,
+    .counter-container .odometer-inside:after,
+    .counter-container .odometer-inside .odometer-value{
+        font-size: 27px;
+        font-weight: 800;
+    }
+
+    .search-panel .search-button-group{
+        display: none;
+    }
+
+    .side-mobile-menu .bottom-extras{
+        border-top: none;
+        margin-top: -20px;
+    }
+
+    .sliding-menu{
+        max-height: 300px;
+        border-bottom: 1px solid #ddd;
+        border-bottom-color: rgba(0,0,0,0.1);
+    }
+
+    .menu-divider{
+        display: none;
+    }
+}
